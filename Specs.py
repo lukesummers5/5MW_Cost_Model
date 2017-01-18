@@ -5,19 +5,23 @@ def HP_LP_Skin_Laminate_Pattern_Areas(user_area, shape_factor, flange_length, fl
     return area
 
 
-entire_surface_no_flanges_area1 = input("Area(sq m) of Entire Surface (w/out flanges): ");
+"""entire_surface_no_flanges_area1 = input("Area(sq m) of Entire Surface (w/out flanges): ");
 entire_surface_no_flanges_shape_factor = input("Shape Factor of Entire Surface (w/out flanges): ");
-entire_surface_no_flanges_area = entire_surface_no_flanges_area1 * entire_surface_no_flanges_shape_factor;
+entire_surface_no_flanges_area = entire_surface_no_flanges_area1 * entire_surface_no_flanges_shape_factor;"""
+entire_surface_without_flanges_area = HP_LP_Skin_Laminate_Pattern_Areas(entire_surface_without_flanges_user_area, entire_surface_without_flanges_shape_factor,
+                                                                     entire_surface_without_flanges_flange_length,entire_surface_without_flanges_flange_width)
 print("Area(sq m) of Entire Surface (w/out flanges): ")
-print(entire_surface_no_flanges_area);
-entire_surface_flanges_area1 = input("Area(sq m) of Entire Surface with flanges: ");
+print(entire_surface_without_flanges_area);
+"""entire_surface_flanges_area1 = input("Area(sq m) of Entire Surface with flanges: ");
 entire_surface_flanges_shape_factor = input("Shape Factor of Entire Surface with flanges: ");
 entire_surface_flanges_length = input("Flange Length(m) of Entire Surface: ");
 entire_surface_flanges_width = input("Flange Width(mm) of Entire Surface: ");
 entire_surface_flanges_area = (entire_surface_flanges_area1 * entire_surface_flanges_shape_factor) +\
-                              (entire_surface_flanges_length * .001 * entire_surface_flanges_width)
+                              (entire_surface_flanges_length * .001 * entire_surface_flanges_width)"""
+entire_surface_with_flanges_area = HP_LP_Skin_Laminate_Pattern_Areas(entire_surface_with_flanges_user_area, entire_surface_with_flanges_shape_factor,
+                                                                     entire_surface_with_flanges_flange_length,entire_surface_with_flanges_flange_width)
 print("Area(sq m) of Entire Surface with flanges: ")
-print(entire_surface_flanges_area)
+print(entire_surface_with_flanges_area)
 
 fwd_balsa1_user_area = input("Area of Fwd Balsa #1: ");
 fwd_balsa1_shape_factor = input("Shape Factor of Fwd Balsa #1: ");

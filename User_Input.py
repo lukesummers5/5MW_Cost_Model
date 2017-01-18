@@ -46,3 +46,8 @@ aft_panel_balsa3_shape_factor = 1.;
 aft_panel_balsa3_flange_length = 0;
 aft_panel_balsa3_flange_width = 0;
 
+tip_mat_user_area = 1.72;
+tip_mat_shape_factor = 1.;
+tip_mat_flange_length = 0;
+tip_mat_flange_width = 0;
+"""LE and TE Shear Web Laminate Pattern Areas"""
