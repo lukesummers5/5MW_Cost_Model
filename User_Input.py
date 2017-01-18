@@ -1,5 +1,5 @@
 """These are the values that are able to be changed by the user"""
-
+# written by Luke Summers
 """""""Material Cutting Labor"""""""
 
 """""""BOM"""""""
